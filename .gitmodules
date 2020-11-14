@@ -1,0 +1,3 @@
+[submodule "Packages/ExcursionBuilder"]
+	path = Packages/ExcursionBuilder
+	url = https://github.com/RTUITLab/Excursion360-Builder.git
