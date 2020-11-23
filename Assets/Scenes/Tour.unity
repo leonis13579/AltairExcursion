@@ -208,6 +208,40 @@ MonoBehaviour:
   Destination: {fileID: 119249176}
   rotationAfterStepAngleOverridden: 0
   rotationAfterStepAngle: 0
+--- !u!114 &271050175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271050172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ceb7ded8f553d409b53f67fcaa5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  colorScheme: 0
+  Destination: {fileID: 325475056}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
+--- !u!114 &271050176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271050172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ceb7ded8f553d409b53f67fcaa5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  colorScheme: 0
+  Destination: {fileID: 886762748}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &325475055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -241,6 +275,40 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1492139364}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
+--- !u!114 &325475058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325475055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ceb7ded8f553d409b53f67fcaa5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  colorScheme: 0
+  Destination: {fileID: 271050173}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
+--- !u!114 &325475059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325475055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ceb7ded8f553d409b53f67fcaa5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
+  colorScheme: 0
+  Destination: {fileID: 1027342619}
   rotationAfterStepAngleOverridden: 0
   rotationAfterStepAngle: 0
 --- !u!1001 &328719092
@@ -608,9 +676,9 @@ MonoBehaviour:
   - index: 3
     orientation: {x: 0.38268346, y: 0, z: 0, w: 0.9238795}
   title: Test
-  contentType: 0
+  contentType: 1
   texture: {fileID: 2800000, guid: b0b65ac2add33d04b9c6485a060c240a, type: 3}
-  videoClip: {fileID: 32900000, guid: a20545109a56e0c479566af026dc72fd, type: 3}
+  videoClip: {fileID: 32900000, guid: fbc9bbc847908e342b339c46b5aa65e8, type: 3}
   isOpened: 0
 --- !u!1001 &723831637
 PrefabInstance:
@@ -1204,6 +1272,23 @@ MonoBehaviour:
   Destination: {fileID: 1902548484}
   rotationAfterStepAngleOverridden: 0
   rotationAfterStepAngle: 0
+--- !u!114 &886762750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886762747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ceb7ded8f553d409b53f67fcaa5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {x: 0, y: 0.92387956, z: 0, w: -0.38268343}
+  colorScheme: 0
+  Destination: {fileID: 271050173}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &976040872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1545,6 +1630,23 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 844016446}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
+--- !u!114 &1027342621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027342618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ceb7ded8f553d409b53f67fcaa5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
+  colorScheme: 0
+  Destination: {fileID: 325475056}
   rotationAfterStepAngleOverridden: 0
   rotationAfterStepAngle: 0
 --- !u!1001 &1040006954
