@@ -154,6 +154,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 639876589}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &119249178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +171,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 271050173}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &271050172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -202,6 +206,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 119249176}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &325475055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -235,6 +241,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1492139364}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &328719092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -490,6 +498,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 1055562410}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &532881586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +515,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1282979407}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &639876588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -538,6 +550,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 976053740}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &639876591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,6 +567,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1492139364}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &639876592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +584,34 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 119249176}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
+--- !u!114 &639876593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639876588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f87fac754e80e4ca3e5d298583281e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertices:
+  - index: 0
+    orientation: {x: 0, y: 0, z: 0, w: 0}
+  - index: 1
+    orientation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+  - index: 2
+    orientation: {x: 0.3535534, y: 0.3535534, z: -0.14644663, w: 0.85355335}
+  - index: 3
+    orientation: {x: 0.38268346, y: 0, z: 0, w: 0.9238795}
+  title: Test
+  contentType: 0
+  texture: {fileID: 2800000, guid: b0b65ac2add33d04b9c6485a060c240a, type: 3}
+  videoClip: {fileID: 32900000, guid: a20545109a56e0c479566af026dc72fd, type: 3}
+  isOpened: 0
 --- !u!1001 &723831637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -675,6 +719,8 @@ MonoBehaviour:
   orientation: {x: 0.00020980858, y: 0.0014433877, z: 0, w: 0.9999989}
   colorScheme: 0
   Destination: {fileID: 1546156722}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &776249113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,6 +736,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1282979407}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &776249114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,6 +753,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
   colorScheme: 0
   Destination: {fileID: 882337185}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &776249115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,6 +770,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1543685816}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &781421485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -753,6 +805,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1257530386}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &788128570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -860,6 +914,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 2049089791}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &844016448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,6 +931,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 1027342619}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &849118914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1058,6 +1116,8 @@ MonoBehaviour:
   states:
   - {fileID: 1543685816}
   - {fileID: 776249111}
+  infos: []
+  rotationAfterStepAngles: []
 --- !u!114 &882337187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,6 +1133,8 @@ MonoBehaviour:
   orientation: {x: -0.0008044499, y: -0.70617276, z: 0, w: 0.7080391}
   colorScheme: 0
   Destination: {fileID: 1055562410}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &882337188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1088,6 +1150,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 1281352584}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &882337189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1103,6 +1167,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1419972800}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &886762747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -1136,6 +1202,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1902548484}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &976040872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1243,6 +1311,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1482884268}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &976053742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258,6 +1328,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1546156722}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &976053743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,6 +1345,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 639876589}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &976053744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1288,6 +1362,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 2118732791}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1002789710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1469,6 +1545,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 844016446}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1040006954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1576,6 +1654,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.85065085, z: 0, w: 0.5257311}
   colorScheme: 0
   Destination: {fileID: 882337185}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1055562412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1591,6 +1671,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 532881584}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1091543829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -1624,6 +1706,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1543685816}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1091543832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1639,6 +1723,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 1419972800}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1145076345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1820,6 +1906,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 781421486}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1257530388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1835,6 +1923,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1950043135}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1275075576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2016,6 +2106,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.5257311, z: 0, w: 0.85065085}
   colorScheme: 0
   Destination: {fileID: 1950043135}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1281352586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,6 +2123,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 882337185}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1282979406 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -2064,6 +2158,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 532881584}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1282979409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2079,6 +2175,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 776249111}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1307525168 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -2112,6 +2210,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 1902548484}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1307525171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2127,6 +2227,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.92387956, z: 0, w: -0.38268343}
   colorScheme: 0
   Destination: {fileID: 1482884268}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1339637828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2234,6 +2336,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 882337185}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1419972802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,6 +2353,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 1950043135}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1419972803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2264,6 +2370,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1091543830}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1465440485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2445,6 +2553,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 976053740}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1482884270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2460,6 +2570,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.92387956, z: 0, w: -0.38268343}
   colorScheme: 0
   Destination: {fileID: 2118732791}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1482884271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2475,6 +2587,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
   colorScheme: 0
   Destination: {fileID: 1307525169}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1482884277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2490,6 +2604,8 @@ MonoBehaviour:
   orientation: {x: 0.0023292806, y: 0.0036332961, z: 0, w: 0.9999907}
   colorScheme: 0
   Destination: {fileID: 1543685816}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1492139363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -2523,6 +2639,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 639876589}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1492139366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2538,6 +2656,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 325475056}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1543685815 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -2571,6 +2691,8 @@ MonoBehaviour:
   orientation: {x: -0.0010585797, y: 0.0009272108, z: 0, w: 0.99999905}
   colorScheme: 0
   Destination: {fileID: 1482884268}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1543685818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2586,6 +2708,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
   colorScheme: 0
   Destination: {fileID: 882337185}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1543685819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2601,6 +2725,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 776249111}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1543685820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2616,6 +2742,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1091543830}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1546156721 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -2649,6 +2777,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 976053740}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1546156724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2664,6 +2794,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
   colorScheme: 0
   Destination: {fileID: 2118732791}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1546156725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2679,6 +2811,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
   colorScheme: 0
   Destination: {fileID: 2049089791}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1546156731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2694,6 +2828,8 @@ MonoBehaviour:
   orientation: {x: 0.0009974106, y: 0.0025103178, z: 0, w: 0.99999636}
   colorScheme: 0
   Destination: {fileID: 776249111}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1584454052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3245,6 +3381,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 886762748}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1902548486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3260,6 +3398,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1307525169}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1 &1950043134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615146593311307869, guid: cf382f7bf5f218746b96930f4bbc4441,
@@ -3293,6 +3433,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.85065085, z: 0, w: 0.5257311}
   colorScheme: 0
   Destination: {fileID: 1281352584}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1950043137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3308,6 +3450,8 @@ MonoBehaviour:
   orientation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   colorScheme: 0
   Destination: {fileID: 1257530386}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &1950043138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3323,6 +3467,8 @@ MonoBehaviour:
   orientation: {x: 1, y: -0, z: 0, w: 0}
   colorScheme: 0
   Destination: {fileID: 1419972800}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &1992103137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3504,6 +3650,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
   colorScheme: 0
   Destination: {fileID: 1546156722}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!114 &2049089793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3519,6 +3667,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 0, w: 1}
   colorScheme: 0
   Destination: {fileID: 844016446}
+  rotationAfterStepAngleOverridden: 0
+  rotationAfterStepAngle: 0
 --- !u!1001 &2107665568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3526,6 +3676,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3311798341011851823, guid: cf382f7bf5f218746b96930f4bbc4441,
+        type: 3}
+      propertyPath: texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 8a89827e06702ab46ae0525a1cbf9656, type: 3}
     - target: {fileID: 4996967914276093797, guid: cf382f7bf5f218746b96930f4bbc4441,
         type: 3}
       propertyPath: title
@@ -3617,6 +3772,8 @@ MonoBehaviour:
   - {fileID: 976053740}
   - {fileID: 1546156722}
   - {fileID: 1482884268}
+  infos: []
+  rotationAfterStepAngles: []
 --- !u!114 &2118732791 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4996967914276093797, guid: cf382f7bf5f218746b96930f4bbc4441,
